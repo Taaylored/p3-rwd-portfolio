@@ -4,16 +4,17 @@ Layouts
 
 .centered {
     margin: 0 auto;
-    padding: 0 1em;
+    
     
 }
 
 section.cards {
-    
-    display: flex;
+    margin-top: 2em;
+    padding: 2em 0em;
     justify-content: center;
-    padding: 3em 0em;
-    background: #e6e6e6;
+    align-content: center;
+    background: white;
+    
     
 
 }
@@ -24,7 +25,11 @@ section.cards {
     margin-bottom: 0;
     text-align: center;
     color: #DC3522;
-    background: white;
+    background: #e6e6e6;
+    font-family: 'Crimson Text', serif;
+    font-size: 3em;
+    font-weight: 700;
+    
 }
 
 @media screen and (min-width: 52em) {

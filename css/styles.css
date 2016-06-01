@@ -19,6 +19,30 @@ YOUR STYLES
 }
 
 
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 999;
+}
+
+li svg {
+    width: 45px;
+    height: 45px;
+    fill: #DC3522;
+   margin: 0px 40px;
+    padding-top: 1em;
+}
+
+li svg:hover {
+    fill: white;
+}
+
+
 /* Typography */
 @import url(https://fonts.googleapis.com/css?family=Muli:400,300);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
