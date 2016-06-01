@@ -7,6 +7,13 @@ Layouts
     padding: 0 1em;
 }
 
+section.cards {
+    
+    display: flex;
+    justify-content: center;
+
+}
+
 @media screen and (min-width: 52em) {
     .centered {
         max-width: 52em;
