@@ -12,7 +12,7 @@ IMPORTS
 YOUR STYLES
 *******************/
 .lg-img-wrap {
-    background-color: black;
+    background-color: #e6e6e6;
 }
 
 .lg-image {
@@ -27,6 +27,9 @@ YOUR STYLES
     background: red;
 }
 
+.lg-sub-html, .lg-toolbar {
+    background-color: white;
+}
 
 .links {
     display: flex;
