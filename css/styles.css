@@ -23,12 +23,11 @@ YOUR STYLES
 
 .lg-sub-html {
     font-size: 4em;
-    color: orange;
-    background: red;
+    color: #6d6e71;
 }
 
 .lg-sub-html, .lg-toolbar {
-    background-color: white;
+    background-color: rgba(255,255,255,.7);
 }
 
 .links {
