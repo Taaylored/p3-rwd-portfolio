@@ -1,6 +1,8 @@
 /********************
 IMPORTS
 *******************/
+
+
 @import url('reset.css');
 @import url('accessibility.css');
 @import url('card-styles.css');
@@ -18,12 +20,12 @@ YOUR STYLES
     box-shadow: 0 0 8px white
 }
 
-.lg-sub-html {
-    
-    color: orange;
-    background: blue;
-}
 
+.lg-sub-html {
+    font-size: 4em;
+    color: orange;
+    background: red;
+}
 
 
 .links {
@@ -41,7 +43,7 @@ li svg {
     height: 45px;
     fill: #DC3522;
    margin: 0px 40px;
-    padding-top: 1em;
+    padding-top: 1.5em;
 }
 
 li svg:hover {
