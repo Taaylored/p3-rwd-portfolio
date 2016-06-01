@@ -5,17 +5,32 @@ Layouts
 .centered {
     margin: 0 auto;
     padding: 0 1em;
+    
 }
 
 section.cards {
     
     display: flex;
     justify-content: center;
+    padding: 3em 0em;
+    background: #e6e6e6;
+    
 
+}
+
+#title {
+    
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: center;
+    color: #DC3522;
+    background: white;
 }
 
 @media screen and (min-width: 52em) {
     .centered {
         max-width: 52em;
+        margin-top: 2em;
+        
     }
 }
